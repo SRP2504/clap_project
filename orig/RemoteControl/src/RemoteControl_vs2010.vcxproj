@@ -1,0 +1,319 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A11CB22C-05B3-4BE1-8E54-697E058D68E5}</ProjectGuid>
+    <RootNamespace>RemoteControl</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+    <ProjectName>RemoteControl</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>..\bin\$(Platform)\</OutDir>
+    <IntDir>..\build\$(Configuration)\$(Platform)\$(TargetName)\</IntDir>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <EnableManagedIncrementalBuild>false</EnableManagedIncrementalBuild>
+    <GenerateManifest>false</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\bin\$(Platform)\</OutDir>
+    <IntDir>..\build\$(Configuration)\$(Platform)\$(TargetName)\</IntDir>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <EnableManagedIncrementalBuild>false</EnableManagedIncrementalBuild>
+    <GenerateManifest>false</GenerateManifest>
+    <LibraryPath>$(LibraryPath);$(PCSDK_DIR)/lib/$(PlatformName);$(PCSDK_DIR)/sample/common/lib/$(PlatformName)</LibraryPath>
+    <IncludePath>$(IncludePath);$(PCSDK_DIR)/include;$(PCSDK_DIR)/sample/common/include</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>..\bin\$(Platform)\</OutDir>
+    <IntDir>..\build\$(Configuration)\$(Platform)\$(TargetName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>..\bin\$(Platform)\</OutDir>
+    <IntDir>..\build\$(Configuration)\$(Platform)\$(TargetName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>RC_WIN7;WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <MinimalRebuild>false</MinimalRebuild>
+      <DisableLanguageExtensions>false</DisableLanguageExtensions>
+      <AdditionalIncludeDirectories>$(SolutionDir);include;res;../../../include;../../../../sample/common/include;%(AdditionalIncludeDirectories);$(PCSDK_DIR)/include;$(PCSDK_DIR)/sample/common/include</AdditionalIncludeDirectories>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <UACUIAccess>true</UACUIAccess>
+      <EnableUAC>false</EnableUAC>
+      <AdditionalDependencies>%(AdditionalDependencies);libpxc_d.lib;libpxcutils_d.lib;psapi.lib;uafxcwd.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\..\lib\$(PlatformName);..\..\sample\common\lib\$(PlatformName)\$(PlatformToolset);$(PCSDK_DIR)\lib\$(PlatformName);$(PCSDK_DIR)\sample\common\lib\$(PlatformName)\$(PlatformToolset);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>uafxcwd.lib</IgnoreSpecificDefaultLibraries>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>res\;$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <ProjectReference>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>RC_WIN7;WIN64;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <MinimalRebuild>false</MinimalRebuild>
+      <DisableLanguageExtensions>false</DisableLanguageExtensions>
+      <AdditionalIncludeDirectories>$(SolutionDir);include;res;../../../include;../../../../sample/common/include;%(AdditionalIncludeDirectories);$(PCSDK_DIR)/include;$(PCSDK_DIR)/sample/common/include</AdditionalIncludeDirectories>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <UACUIAccess>true</UACUIAccess>
+      <EnableUAC>false</EnableUAC>
+      <AdditionalDependencies>%(AdditionalDependencies);libpxc_d.lib;libpxcutils_d.lib;psapi.lib;uafxcwd.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\..\lib\$(PlatformName);..\..\sample\common\lib\$(PlatformName)\$(PlatformToolset);$(PCSDK_DIR)\lib\$(PlatformName);$(PCSDK_DIR)\sample\common\lib\$(PlatformName)\$(PlatformToolset);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>uafxcwd.lib</IgnoreSpecificDefaultLibraries>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>res\;$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <ProjectReference>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+      <UseLibraryDependencyInputs>true</UseLibraryDependencyInputs>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>RC_WIN7;WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(SolutionDir);include;res;../../../include;../../../../sample/common/include;%(AdditionalIncludeDirectories);$(PCSDK_DIR)/include;$(PCSDK_DIR)/sample/common/include</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>..\..\lib\$(PlatformName);..\..\sample\common\lib\$(PlatformName)\$(PlatformToolset);$(PCSDK_DIR)\lib\$(PlatformName);$(PCSDK_DIR)\sample\common\lib\$(PlatformName)\$(PlatformToolset);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>%(AdditionalDependencies);libpxc.lib;libpxcutils.lib;psapi.lib;uafxcw.lib</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>uafxcw.lib</IgnoreSpecificDefaultLibraries>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>res\;$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>RC_WIN7;WIN64;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(SolutionDir);include;res;../../../include;../../../../sample/common/include;%(AdditionalIncludeDirectories);$(PCSDK_DIR)/include;$(PCSDK_DIR)/sample/common/include</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>..\..\lib\$(PlatformName);..\..\sample\common\lib\$(PlatformName)\$(PlatformToolset);$(PCSDK_DIR)\lib\$(PlatformName);$(PCSDK_DIR)\sample\common\lib\$(PlatformName)\$(PlatformToolset);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>%(AdditionalDependencies);libpxc.lib;libpxcutils.lib;psapi.lib;uafxcw.lib</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>uafxcw.lib</IgnoreSpecificDefaultLibraries>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>res\;$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\AUXlib\AUXAudioRender.h" />
+    <ClInclude Include="..\AUXlib\AUXStreamRender.h" />
+    <ClInclude Include="..\AUXlib\AUXTextRender.h" />
+    <ClInclude Include="..\AUXlib\AUXWidget.h" />
+    <ClInclude Include="..\AUXlib\AUXWidgetManager.h" />
+    <ClInclude Include=".\DlgNewAction.h" />
+    <ClInclude Include=".\RemoteControl.h" />
+    <ClInclude Include=".\RemoteControlDlg.h" />
+    <ClInclude Include="Dispatcher.h" />
+    <ClInclude Include="DlgLinkSensor.h" />
+    <ClInclude Include="DlgTaskInfo.h" />
+    <ClInclude Include="Invoker.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\AUXlib\AUXAudioRender.cpp" />
+    <ClCompile Include="..\AUXlib\AUXSreamRender.cpp" />
+    <ClCompile Include="..\AUXlib\AUXTextRender.cpp" />
+    <ClCompile Include="..\AUXlib\AUXWidget.cpp" />
+    <ClCompile Include="..\AUXlib\AUXWidgetManager.cpp" />
+    <ClCompile Include=".\DlgNewAction.cpp" />
+    <ClCompile Include=".\RemoteControl.cpp" />
+    <ClCompile Include=".\RemoteControlDlg.cpp" />
+    <ClCompile Include="Dispatcher.cpp" />
+    <ClCompile Include="DlgLinkSensor.cpp" />
+    <ClCompile Include="DlgTaskInfo.cpp" />
+    <ClCompile Include="Invoker.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include=".\RemoteControl.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\icon-sensor.ico" />
+    <None Include="res\Welcome.bmp" />
+    <None Include="res\Welcome2.bmp" />
+    <None Include="res\Welcome3.bmp" />
+    <None Include="res\Welcome4.bmp" />
+    <None Include="res\Widget.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include=".\res\RemoteControl.ico" />
+    <Image Include="peace.bmp" />
+    <Image Include="res\bitmap1.bmp" />
+    <Image Include="res\bitmapEdit.bmp" />
+    <Image Include="res\bitmapMake.bmp" />
+    <Image Include="res\icon1.ico" />
+    <Image Include="res\_RemoteControl.ico" />
+    <Image Include="swipe_left.bmp" />
+    <Image Include="swipe_right.bmp" />
+    <Image Include="thumb_down.bmp" />
+    <Image Include="thumb_up.bmp" />
+    <Image Include="wave.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\sensors\sensor_face_attribute\sensor_face_attribute_vs2010.vcxproj">
+      <Project>{0107d8de-56cb-45c2-ae69-1e0199d7f8cc}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\sensors\sensor_gesture_CI\sensor_gesture_CI_vs2010.vcxproj">
+      <Project>{0b5fc13d-e2b5-4140-a051-4087dd26c4f9}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\sensors\sensor_voice\sensor_voice_vs2010.vcxproj">
+      <Project>{d63b53b9-418d-4be7-8e94-cedfa6d43f2e}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="RemoteControl.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

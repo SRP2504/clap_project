@@ -1,0 +1,220 @@
+<?xml version="1.0"?><!--RemoteControl--><RC>
+<TaskList>
+   <Task>
+      <Application enabled="1">
+         <Group name="notepad"/>
+      </Application>
+      <Action>
+         <Common type="7"/>
+         <Print type="2"/>
+      </Action>
+      <Camera>
+         <Sensor id="2" title="Gesture Recognition"/>
+         <Event id="7" title="Hand ON"/>
+      </Camera>
+   </Task>
+   <Task>
+      <Application enabled="1">
+         <Group name="notepad"/>
+      </Application>
+      <Action>
+         <Common type="7"/>
+         <Print type="2"/>
+      </Action>
+      <Camera>
+         <Sensor id="2" title="Gesture Recognition"/>
+         <Event id="8" title="Hand OFF"/>
+      </Camera>
+   </Task>
+   <Task>
+      <Application enabled="1">
+         <Group name="notepad"/>
+      </Application>
+      <Action>
+         <Common type="7"/>
+         <Print type="2"/>
+      </Action>
+      <Camera>
+         <Sensor id="2" title="Gesture Recognition"/>
+         <Event id="12" title="Palm (Big5)"/>
+      </Camera>
+   </Task>
+   <Task>
+      <Application enabled="1">
+         <Group name="notepad"/>
+      </Application>
+      <Action>
+         <Common type="7"/>
+         <Print type="2"/>
+      </Action>
+      <Camera>
+         <Sensor id="2" title="Gesture Recognition"/>
+         <Event id="1" title="Thumb Up"/>
+      </Camera>
+   </Task>
+   <Task>
+      <Application enabled="1">
+         <Group name="notepad"/>
+      </Application>
+      <Action>
+         <Common type="7"/>
+         <Print type="2"/>
+      </Action>
+      <Camera>
+         <Sensor id="2" title="Gesture Recognition"/>
+         <Event id="2" title="Thumb Down"/>
+      </Camera>
+   </Task>
+   <Task>
+      <Application enabled="1">
+         <Group name="notepad"/>
+      </Application>
+      <Action>
+         <Common type="7"/>
+         <Print type="2"/>
+      </Action>
+      <Camera>
+         <Sensor id="2" title="Gesture Recognition"/>
+         <Event id="3" title="&quot;V&quot; (Peace)"/>
+      </Camera>
+   </Task>
+   <Task>
+      <Application enabled="1">
+         <Group name="notepad"/>
+      </Application>
+      <Action>
+         <Common type="7"/>
+         <Print type="2"/>
+      </Action>
+      <Camera>
+         <Sensor id="2" title="Gesture Recognition"/>
+         <Event id="4" title="Left"/>
+      </Camera>
+   </Task>
+   <Task>
+      <Application enabled="1">
+         <Group name="notepad"/>
+      </Application>
+      <Action>
+         <Common type="7"/>
+         <Print type="2"/>
+      </Action>
+      <Camera>
+         <Sensor id="2" title="Gesture Recognition"/>
+         <Event id="5" title="Right"/>
+      </Camera>
+   </Task>
+   <Task>
+      <Application enabled="1">
+         <Group name="notepad"/>
+      </Application>
+      <Action>
+         <Common type="7"/>
+         <Print type="2"/>
+      </Action>
+      <Camera>
+         <Sensor id="2" title="Gesture Recognition"/>
+         <Event id="9" title="Up"/>
+      </Camera>
+   </Task>
+   <Task>
+      <Application enabled="1">
+         <Group name="notepad"/>
+      </Application>
+      <Action>
+         <Common type="7"/>
+         <Print type="2"/>
+      </Action>
+      <Camera>
+         <Sensor id="2" title="Gesture Recognition"/>
+         <Event id="10" title="Down"/>
+      </Camera>
+   </Task>
+   <Task>
+      <Application enabled="1">
+         <Group name="notepad"/>
+      </Application>
+      <Action>
+         <Common type="7"/>
+         <Print type="2"/>
+      </Action>
+      <Camera>
+         <Sensor id="2" title="Gesture Recognition"/>
+         <Event id="11" title="Circle"/>
+      </Camera>
+   </Task>
+   <Task>
+      <Application enabled="1">
+         <Group name="notepad"/>
+      </Application>
+      <Action>
+         <Common type="7"/>
+         <Print type="2"/>
+      </Action>
+      <Camera>
+         <Sensor id="2" title="Gesture Recognition"/>
+         <Event id="6" title="Wave"/>
+      </Camera>
+   </Task>
+   <Task>
+      <Application enabled="1">
+         <Group name="notepad"/>
+      </Application>
+      <Action>
+         <Common type="7"/>
+         <Print type="2"/>
+      </Action>
+      <Camera>
+         <Sensor id="1" title="Face Recognition"/>
+         <Event id="4" title="Smile OFF"/>
+      </Camera>
+   </Task>
+   <Task>
+      <Application enabled="1">
+         <Group name="notepad"/>
+      </Application>
+      <Action>
+         <Common type="7"/>
+         <Print type="2"/>
+      </Action>
+      <Camera>
+         <Sensor id="1" title="Face Recognition"/>
+         <Event id="2" title="Face OFF"/>
+      </Camera>
+   </Task>
+   <Task>
+      <Application enabled="1">
+         <Group name="notepad"/>
+      </Application>
+      <Action>
+         <Common type="7"/>
+         <Print type="2"/>
+      </Action>
+      <Camera>
+         <Sensor id="1" title="Face Recognition"/>
+         <Event id="3" title="Smile ON"/>
+      </Camera>
+   </Task>
+   <Task>
+      <Application enabled="1">
+         <Group name="notepad"/>
+      </Application>
+      <Action>
+         <Common type="7"/>
+         <Print type="2"/>
+      </Action>
+      <Camera>
+         <Sensor id="1" title="Face Recognition"/>
+         <Event id="1" title="Face ON"/>
+      </Camera>
+   </Task>
+</TaskList>
+<HelperList>
+   <Group x="14" y="20"/>
+   <Helper name="Gestures:" x="0" y="130" pin="1" active="0"/>
+   <Helper name="Face events:" x="0" y="0" pin="1" active="0"/>
+   <Helper name="Gesture Viewer" x="0" y="130" pin="1" active="1"/>
+   <Helper name="Image Viewer" x="0" y="0" pin="1" active="1"/>
+   <Helper name="Blob Viewer" x="170" y="130" pin="1" active="0"/>
+</HelperList>
+</RC>

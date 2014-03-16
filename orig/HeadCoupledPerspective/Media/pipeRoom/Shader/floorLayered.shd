@@ -1,0 +1,13 @@
+layer1 = ( texture( name="diffuseTexture1", uv=uv0 * 1 ))
+layer2 = ( texture( name="diffuseTexture2", uv=uv0 * 1 ))
+layer3 = ( texture( name="diffuseTexture3", uv=uv0 * 1 ))
+mask1 = 0.5
+mask2 = 0.5
+diffuseLerp1 = lerp (layer1, layer2, mask1)
+diffuse = lerp (diffuseLerp1, layer3, mask2)
+ambient = diffuse * 5
+specularTmp = diffuse * 1.5
+specular = specularTmp * specularTmp
+specularity = 64
+normal = ( texture( name="normalTexture1", uv=uv0 * 1 ) *2 -1)
+ambientOcclusion = layer1

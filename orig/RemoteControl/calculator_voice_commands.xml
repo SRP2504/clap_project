@@ -1,0 +1,230 @@
+<?xml version="1.0"?><!--RemoteControl--><RC>
+<TaskList>
+   <Task>
+      <Application enabled="1">
+         <Group name="calc"/>
+      </Application>
+      <Action>
+         <Common type="2"/>
+         <Key type="1" name="0" code="48"/>
+      </Action>
+      <Camera>
+         <Sensor id="3" title="Voice Recognition"/>
+         <Voice cmd="zero"/>
+      </Camera>
+   </Task>
+   <Task>
+      <Application enabled="1">
+         <Group name="calc"/>
+      </Application>
+      <Action>
+         <Common type="2"/>
+         <Key type="1" name="1" code="49"/>
+      </Action>
+      <Camera>
+         <Sensor id="3" title="Voice Recognition"/>
+         <Voice cmd="one"/>
+      </Camera>
+   </Task>
+   <Task>
+      <Application enabled="1">
+         <Group name="calc"/>
+      </Application>
+      <Action>
+         <Common type="2"/>
+         <Key type="1" name="2" code="50"/>
+      </Action>
+      <Camera>
+         <Sensor id="3" title="Voice Recognition"/>
+         <Voice cmd="two"/>
+      </Camera>
+   </Task>
+   <Task>
+      <Application enabled="1">
+         <Group name="calc"/>
+      </Application>
+      <Action>
+         <Common type="2"/>
+         <Key type="1" name="3" code="51"/>
+      </Action>
+      <Camera>
+         <Sensor id="3" title="Voice Recognition"/>
+         <Voice cmd="three"/>
+      </Camera>
+   </Task>
+   <Task>
+      <Application enabled="1">
+         <Group name="calc"/>
+      </Application>
+      <Action>
+         <Common type="2"/>
+         <Key type="1" name="4" code="52"/>
+      </Action>
+      <Camera>
+         <Sensor id="3" title="Voice Recognition"/>
+         <Voice cmd="four"/>
+      </Camera>
+   </Task>
+   <Task>
+      <Application enabled="1">
+         <Group name="calc"/>
+      </Application>
+      <Action>
+         <Common type="2"/>
+         <Key type="1" name="5" code="53"/>
+      </Action>
+      <Camera>
+         <Sensor id="3" title="Voice Recognition"/>
+         <Voice cmd="five"/>
+      </Camera>
+   </Task>
+   <Task>
+      <Application enabled="1">
+         <Group name="calc"/>
+      </Application>
+      <Action>
+         <Common type="2"/>
+         <Key type="1" name="6" code="54"/>
+      </Action>
+      <Camera>
+         <Sensor id="3" title="Voice Recognition"/>
+         <Voice cmd="six"/>
+      </Camera>
+   </Task>
+   <Task>
+      <Application enabled="1">
+         <Group name="calc"/>
+      </Application>
+      <Action>
+         <Common type="2"/>
+         <Key type="1" name="7" code="55"/>
+      </Action>
+      <Camera>
+         <Sensor id="3" title="Voice Recognition"/>
+         <Voice cmd="seven"/>
+      </Camera>
+   </Task>
+   <Task>
+      <Application enabled="1">
+         <Group name="calc"/>
+      </Application>
+      <Action>
+         <Common type="2"/>
+         <Key type="1" name="8" code="56"/>
+      </Action>
+      <Camera>
+         <Sensor id="3" title="Voice Recognition"/>
+         <Voice cmd="eight"/>
+      </Camera>
+   </Task>
+   <Task>
+      <Application enabled="1">
+         <Group name="calc"/>
+      </Application>
+      <Action>
+         <Common type="2"/>
+         <Key type="1" name="9" code="57"/>
+      </Action>
+      <Camera>
+         <Sensor id="3" title="Voice Recognition"/>
+         <Voice cmd="nine"/>
+      </Camera>
+   </Task>
+   <Task>
+      <Application enabled="1">
+         <Group name="calc"/>
+      </Application>
+      <Action>
+         <Common type="2"/>
+         <Key type="2"/>
+      </Action>
+      <Camera>
+         <Sensor id="3" title="Voice Recognition"/>
+         <Voice cmd="clear"/>
+      </Camera>
+   </Task>
+   <Task>
+      <Application enabled="1">
+         <Group name="calc"/>
+      </Application>
+      <Action>
+         <Common type="2"/>
+         <Key type="10"/>
+      </Action>
+      <Camera>
+         <Sensor id="3" title="Voice Recognition"/>
+         <Voice cmd="no"/>
+      </Camera>
+   </Task>
+   <Task>
+      <Application enabled="1">
+         <Group name="calc"/>
+      </Application>
+      <Action>
+         <Common type="2"/>
+         <Key type="1" name="/" code="191"/>
+      </Action>
+      <Camera>
+         <Sensor id="3" title="Voice Recognition"/>
+         <Voice cmd="divide"/>
+      </Camera>
+   </Task>
+   <Task>
+      <Application enabled="1">
+         <Group name="calc"/>
+      </Application>
+      <Action>
+         <Common type="2"/>
+         <Key type="1" name="Shift + 8" code="312"/>
+      </Action>
+      <Camera>
+         <Sensor id="3" title="Voice Recognition"/>
+         <Voice cmd="multiply"/>
+      </Camera>
+   </Task>
+   <Task>
+      <Application enabled="1">
+         <Group name="calc"/>
+      </Application>
+      <Action>
+         <Common type="2"/>
+         <Key type="1" name="Shift + =" code="443"/>
+      </Action>
+      <Camera>
+         <Sensor id="3" title="Voice Recognition"/>
+         <Voice cmd="plus"/>
+      </Camera>
+   </Task>
+   <Task>
+      <Application enabled="1">
+         <Group name="calc"/>
+      </Application>
+      <Action>
+         <Common type="2"/>
+         <Key type="1" name="-" code="189"/>
+      </Action>
+      <Camera>
+         <Sensor id="3" title="Voice Recognition"/>
+         <Voice cmd="minus"/>
+      </Camera>
+   </Task>
+   <Task>
+      <Application enabled="1">
+         <Group name="calc"/>
+      </Application>
+      <Action>
+         <Common type="2"/>
+         <Key type="1" name="=" code="187"/>
+      </Action>
+      <Camera>
+         <Sensor id="3" title="Voice Recognition"/>
+         <Voice cmd="equal"/>
+      </Camera>
+   </Task>
+</TaskList>
+<HelperList>
+   <Group x="41" y="92"/>
+   <Helper name="Voice commands:" x="0" y="0" pin="1" active="0"/>
+   <Helper name="Voice Viewer" x="210" y="227" pin="0" active="1"/>
+</HelperList>
+</RC>

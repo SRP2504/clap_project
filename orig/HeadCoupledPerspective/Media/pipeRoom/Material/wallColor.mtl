@@ -1,0 +1,11 @@
+texture_DM = walls_DM.dds
+texture_SM = walls_SM.dds
+texture_NM = walls_NM.dds
+texture_LM = lightMapMost.dds
+VertexShaderFile    = walls.fx
+VertexShaderMain    = VSMain
+VertexShaderProfile = vs_4_0
+PixelShaderFile     = walls.fx
+PixelShaderMain     = PSMain
+PixelShaderProfile  = ps_4_0
+RenderStateFile     = $DefaultRenderStates

@@ -1,0 +1,36 @@
+<?xml version="1.0"?><!--RemoteControl--><RC>
+<TaskList>
+   <Task>
+      <Application enabled="1">
+         <Group name="_any_active_application_"/>
+      </Application>
+      <Action>
+         <Common type="2"/>
+         <Key type="1" name="Num 3" code="34"/>
+      </Action>
+      <Camera>
+         <Sensor id="2" title="Gesture Recognition"/>
+         <Event id="4" title="Left"/>
+      </Camera>
+   </Task>
+   <Task>
+      <Application enabled="1">
+         <Group name="_any_active_application_"/>
+      </Application>
+      <Action>
+         <Common type="2"/>
+         <Key type="1" name="Num 9" code="33"/>
+      </Action>
+      <Camera>
+         <Sensor id="2" title="Gesture Recognition"/>
+         <Event id="5" title="Right"/>
+      </Camera>
+   </Task>
+</TaskList>
+<HelperList>
+   <Group x="286" y="149"/>
+   <Helper name="Gestures:" x="176" y="176" pin="0" active="0"/>
+   <Helper name="Gesture Viewer" x="236" y="207" pin="0" active="1"/>
+   <Helper name="Blob Viewer" x="266" y="242" pin="0" active="0"/>
+</HelperList>
+</RC>

@@ -1,0 +1,11 @@
+texture_DM = rods_DM.dds
+texture_SM = rods_SM.dds
+texture_NM = rods_NM.dds
+texture_LM = lightMapMost.dds
+VertexShaderFile    = rods.fx
+VertexShaderMain    = VSMain
+VertexShaderProfile = vs_4_0
+PixelShaderFile     = rods.fx
+PixelShaderMain     = PSMain
+PixelShaderProfile  = ps_4_0
+RenderStateFile     = $DefaultRenderStates

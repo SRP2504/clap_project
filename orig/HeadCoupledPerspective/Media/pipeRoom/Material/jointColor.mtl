@@ -1,0 +1,10 @@
+texture_DM = sphereColor.dds
+texture_SM = sphereColor.dds
+texture_LM = lightMapJoints.dds
+VertexShaderFile    = joints.fx
+VertexShaderMain    = VSMain
+VertexShaderProfile = vs_4_0
+PixelShaderFile     = joints.fx
+PixelShaderMain     = PSMain
+PixelShaderProfile  = ps_4_0
+RenderStateFile     = $DefaultRenderStates

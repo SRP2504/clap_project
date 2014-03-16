@@ -1,0 +1,8 @@
+texture0			= envSceneTex.dds
+VertexShaderFile    = sphere.fx
+VertexShaderMain    = VSMain
+VertexShaderProfile = vs_4_0
+PixelShaderFile     = sphere.fx
+PixelShaderMain     = PSMain
+PixelShaderProfile  = ps_4_0
+RenderStateFile     = $DefaultRenderStates

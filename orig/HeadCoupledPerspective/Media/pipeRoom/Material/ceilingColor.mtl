@@ -1,0 +1,8 @@
+diffuseTexture = ceiling_DM.dds
+VertexShaderFile    = ceiling.fx
+VertexShaderMain    = VSMain
+VertexShaderProfile = vs_4_0
+PixelShaderFile     = ceiling.fx
+PixelShaderMain     = PSMain
+PixelShaderProfile  = ps_4_0
+RenderStateFile     = $DefaultRenderStates

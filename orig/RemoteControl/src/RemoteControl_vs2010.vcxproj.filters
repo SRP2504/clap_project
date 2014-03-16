@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Visual Helpers">
+      <UniqueIdentifier>{78bddf5b-ac9f-423b-bb3c-766bec339295}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include=".\DlgNewAction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include=".\RemoteControlDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include=".\RemoteControl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dispatcher.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgLinkSensor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Invoker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgTaskInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AUXlib\AUXAudioRender.h">
+      <Filter>Visual Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AUXlib\AUXWidgetManager.h">
+      <Filter>Visual Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AUXlib\AUXStreamRender.h">
+      <Filter>Visual Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AUXlib\AUXTextRender.h">
+      <Filter>Visual Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AUXlib\AUXWidget.h">
+      <Filter>Visual Helpers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".\DlgNewAction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".\RemoteControlDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".\RemoteControl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dispatcher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgLinkSensor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Invoker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgTaskInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AUXlib\AUXAudioRender.cpp">
+      <Filter>Visual Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AUXlib\AUXWidgetManager.cpp">
+      <Filter>Visual Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AUXlib\AUXSreamRender.cpp">
+      <Filter>Visual Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AUXlib\AUXTextRender.cpp">
+      <Filter>Visual Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AUXlib\AUXWidget.cpp">
+      <Filter>Visual Helpers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\bitmapEdit.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bitmapMake.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include=".\RemoteControl.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\icon-sensor.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Widget.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Welcome.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Welcome2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Welcome3.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Welcome4.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

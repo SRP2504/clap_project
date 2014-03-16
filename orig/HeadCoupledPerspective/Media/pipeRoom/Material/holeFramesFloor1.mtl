@@ -1,0 +1,11 @@
+texture_DM = floor_DM.dds
+texture_SM = floor_SM.dds
+texture_NM = floor_NM.dds
+texture_LM = lightMapHoles.dds
+VertexShaderFile    = holeFramesfloor.fx
+VertexShaderMain    = VSMain
+VertexShaderProfile = vs_4_0
+PixelShaderFile     = holeFramesfloor.fx
+PixelShaderMain     = PSMain
+PixelShaderProfile  = ps_4_0
+RenderStateFile     = $DefaultRenderStates

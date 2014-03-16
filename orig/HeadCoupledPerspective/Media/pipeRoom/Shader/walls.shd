@@ -1,0 +1,7 @@
+diffuseTex =  texture( name="texture_DM", uv=uv0 * 2 )
+specular =  texture( name="texture_SM", uv=uv0 * 2 )
+normal =  (texture( name="texture_NM", uv=uv0 * 2 ) *2 -1)
+ambientTex = texture( name="texture_LM", uv=uv1 * 1 ).r
+ambient = (diffuseTex * ambientTex) * 5
+diffuse = (diffuseTex * diffuseTex) * 5
+

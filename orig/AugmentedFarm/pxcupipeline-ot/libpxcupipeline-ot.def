@@ -1,0 +1,41 @@
+﻿
+EXPORTS
+    PXCUPipeline_Create
+    PXCUPipeline_Destroy
+    PXCUPipeline_Init
+    PXCUPipeline_AcquireFrame
+    PXCUPipeline_ReleaseFrame
+    PXCUPipeline_PauseFrame
+    PXCUPipeline_IsDisconnected
+    PXCUPipeline_QueryGeoNode
+    PXCUPipeline_QueryGesture
+    PXCUPipeline_QueryFaceID
+    PXCUPipeline_QueryFaceLocationData
+    PXCUPipeline_QueryFaceLandmarkPose
+    PXCUPipeline_QueryFaceLandmarkData
+    PXCUPipeline_Close
+    PXCUPipeline_QueryRGB
+    PXCUPipeline_QueryIRMap
+    PXCUPipeline_QueryDepthMap
+    PXCUPipeline_QueryUVMap
+    PXCUPipeline_QueryLabelMap
+    PXCUPipeline_QueryRGBSize
+    PXCUPipeline_QueryIRMapSize
+    PXCUPipeline_QueryDepthMapSize
+    PXCUPipeline_QueryUVMapSize
+    PXCUPipeline_QueryLabelMapSize
+	PXCUPipeline_QueryDeviceProperty
+	PXCUPipeline_SetDeviceProperty
+    PXCUPipeline_SetVoiceCommand
+    PXCUPipeline_SetVoiceDictation
+	PXCUPipeline_SetVoiceLanguage
+    PXCUPipeline_QueryVoiceRecognized
+	PXCUPipeline_ProjectImageToRealWorld
+	PXCUPipeline_ProjectRealWorldToImage
+	PXCUPipeline_MapDepthToColorCoordinates
+    PXCUPipeline_InitTracker
+    PXCUPipeline_QueryTargetData
+    PXCUPipeline_QueryTargetName
+    PXCUPipeline_QueryTargetType
+    PXCUPipeline_QueryTrackedKeyFrameIndex
+

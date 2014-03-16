@@ -1,0 +1,37 @@
+<?xml version="1.0"?><!--RemoteControl--><RC>
+<TaskList>
+   <Task>
+      <Application enabled="1">
+         <Group name="calc"/>
+      </Application>
+      <Action>
+         <Common type="7"/>
+         <Print type="3"/>
+      </Action>
+      <Camera>
+         <Sensor id="3" title="Voice Recognition"/>
+         <Voice cmd="__any__"/>
+      </Camera>
+   </Task>
+   <Task>
+      <Application enabled="1">
+         <Group name="calc"/>
+      </Application>
+      <Action>
+         <Common type="2"/>
+         <Key type="2"/>
+      </Action>
+      <Camera>
+         <Sensor id="1" title="Face Recognition"/>
+         <Event id="1" title="Face ON"/>
+      </Camera>
+   </Task>
+</TaskList>
+<HelperList>
+   <Group x="85" y="172"/>
+   <Helper name="Face events:" x="0" y="0" pin="1" active="0"/>
+   <Helper name="Voice commands:" x="13" y="153" pin="0" active="0"/>
+   <Helper name="Voice Viewer" x="0" y="130" pin="1" active="1"/>
+   <Helper name="Image Viewer" x="0" y="0" pin="1" active="1"/>
+</HelperList>
+</RC>

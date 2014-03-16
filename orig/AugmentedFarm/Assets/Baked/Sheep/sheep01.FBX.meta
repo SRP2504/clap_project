@@ -1,0 +1,232 @@
+fileFormatVersion: 2
+guid: 146de0817b2b1ba4292182a7a21fb00f
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: Point005
+    100002: Bone014
+    100004: Bone016
+    100006: sheep_022
+    100008: Bone004
+    100010: Bone003
+    100012: sheep_03
+    100014: sheep_07
+    100016: Bone010
+    100018: sheep_12
+    100020: sheep_06
+    100022: Bone008
+    100024: sheep_11
+    100026: Bone001
+    100028: sheep_05
+    100030: Bone006
+    100032: sheep_023
+    100034: Bone009
+    100036: //RootNode
+    100038: sheep_13
+    100040: Bone011
+    100042: sheep_10
+    100044: sheep_09
+    100046: sheep_21
+    100048: Bone012
+    100050: Bone002
+    100052: Bone005
+    100054: Bone013
+    100056: sheep_08
+    100058: Bone007
+    100060: sheep_16
+    100062: sheep_04
+    100064: IK Chain003
+    100066: IK Chain001
+    100068: IK Chain007
+    100070: Point010
+    100072: sheep_00
+    100074: IK Chain002
+    100076: Point003
+    100078: Point011
+    100080: Point001
+    100082: Point004
+    100084: IK Chain008
+    100086: IK Chain006
+    100088: Point008
+    100090: sheep_02
+    100092: sheep_15
+    100094: IK Chain005
+    100096: IK Chain004
+    100098: sheep_18
+    100100: sheep_14
+    100102: Point007
+    100104: sheep_024
+    100106: Point002
+    100108: Point006
+    100110: Point012
+    100112: Point009
+    100114: Bone015
+    400000: Point005
+    400002: Bone014
+    400004: Bone016
+    400006: sheep_022
+    400008: Bone004
+    400010: Bone003
+    400012: sheep_03
+    400014: sheep_07
+    400016: Bone010
+    400018: sheep_12
+    400020: sheep_06
+    400022: Bone008
+    400024: sheep_11
+    400026: Bone001
+    400028: sheep_05
+    400030: Bone006
+    400032: sheep_023
+    400034: Bone009
+    400036: //RootNode
+    400038: sheep_13
+    400040: Bone011
+    400042: sheep_10
+    400044: sheep_09
+    400046: sheep_21
+    400048: Bone012
+    400050: Bone002
+    400052: Bone005
+    400054: Bone013
+    400056: sheep_08
+    400058: Bone007
+    400060: sheep_16
+    400062: sheep_04
+    400064: IK Chain003
+    400066: IK Chain001
+    400068: IK Chain007
+    400070: Point010
+    400072: sheep_00
+    400074: IK Chain002
+    400076: Point003
+    400078: Point011
+    400080: Point001
+    400082: Point004
+    400084: IK Chain008
+    400086: IK Chain006
+    400088: Point008
+    400090: sheep_02
+    400092: sheep_15
+    400094: IK Chain005
+    400096: IK Chain004
+    400098: sheep_18
+    400100: sheep_14
+    400102: Point007
+    400104: sheep_024
+    400106: Point002
+    400108: Point006
+    400110: Point012
+    400112: Point009
+    400114: Bone015
+    2300000: sheep_03
+    2300002: sheep_07
+    2300004: sheep_12
+    2300006: sheep_06
+    2300008: sheep_11
+    2300010: sheep_05
+    2300012: sheep_13
+    2300014: sheep_10
+    2300016: sheep_09
+    2300018: sheep_08
+    2300020: sheep_16
+    2300022: sheep_04
+    2300024: sheep_00
+    2300026: sheep_02
+    2300028: sheep_15
+    2300030: sheep_18
+    2300032: sheep_14
+    3300000: sheep_03
+    3300002: sheep_07
+    3300004: sheep_12
+    3300006: sheep_06
+    3300008: sheep_11
+    3300010: sheep_05
+    3300012: sheep_13
+    3300014: sheep_10
+    3300016: sheep_09
+    3300018: sheep_08
+    3300020: sheep_16
+    3300022: sheep_04
+    3300024: sheep_00
+    3300026: sheep_02
+    3300028: sheep_15
+    3300030: sheep_18
+    3300032: sheep_14
+    4300000: sheep_024
+    4300002: sheep_18
+    4300004: sheep_00
+    4300006: sheep_05
+    4300008: sheep_04
+    4300010: sheep_02
+    4300012: sheep_03
+    4300014: sheep_08
+    4300016: sheep_16
+    4300018: sheep_06
+    4300020: sheep_21
+    4300022: sheep_07
+    4300024: sheep_022
+    4300026: sheep_023
+    4300028: sheep_12
+    4300030: sheep_13
+    4300032: sheep_09
+    4300034: sheep_11
+    4300036: sheep_10
+    4300038: sheep_14
+    4300040: sheep_15
+    7400002: Take 001
+    11100000: //RootNode
+    13700000: sheep_022
+    13700002: sheep_023
+    13700004: sheep_21
+    13700006: sheep_024
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 1
+  userData: 

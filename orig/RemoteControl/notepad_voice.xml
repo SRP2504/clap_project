@@ -1,0 +1,48 @@
+<?xml version="1.0"?><!--RemoteControl--><RC>
+<TaskList>
+   <Task>
+      <Application enabled="1">
+         <Group name="notepad"/>
+      </Application>
+      <Action>
+         <Common type="7"/>
+         <Print type="2"/>
+      </Action>
+      <Camera>
+         <Sensor id="3" title="Voice Recognition"/>
+         <Voice cmd="__any__"/>
+      </Camera>
+   </Task>
+   <Task>
+      <Application enabled="1">
+         <Group name="notepad"/>
+      </Application>
+      <Action>
+         <Common type="2"/>
+         <Key type="1" name="Ctrl + A" code="577"/>
+      </Action>
+      <Camera>
+         <Sensor id="3" title="Voice Recognition"/>
+         <Voice cmd="next"/>
+      </Camera>
+   </Task>
+   <Task>
+      <Application enabled="1">
+         <Group name="notepad"/>
+      </Application>
+      <Action>
+         <Common type="2"/>
+         <Key type="9"/>
+      </Action>
+      <Camera>
+         <Sensor id="3" title="Voice Recognition"/>
+         <Voice cmd="next"/>
+      </Camera>
+   </Task>
+</TaskList>
+<HelperList>
+   <Group x="139" y="99"/>
+   <Helper name="Voice commands:" x="13" y="153" pin="0" active="0"/>
+   <Helper name="Voice Viewer" x="4" y="9" pin="0" active="1"/>
+</HelperList>
+</RC>

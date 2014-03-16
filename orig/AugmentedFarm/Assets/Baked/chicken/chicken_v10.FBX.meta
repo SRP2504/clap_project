@@ -1,0 +1,414 @@
+fileFormatVersion: 2
+guid: 5d6bcf1c9f00db4459c40304c982c794
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: Bone001
+    100002: Bone002
+    100004: Bone003
+    100006: Bone004
+    100008: Bone005
+    100010: Bone006
+    100012: Bone007
+    100014: Bone008
+    100016: chicken_00
+    100018: chicken_016
+    100020: chicken_017
+    100022: chicken_018
+    100024: chicken_02
+    100026: chicken_05
+    100028: chicken_06
+    100030: chicken_07
+    100032: chicken_08
+    100034: chicken_09
+    100036: chicken_10
+    100038: chicken_11
+    100040: chicken_12
+    100042: chicken_13
+    100044: chicken_14
+    100046: chicken_15
+    100048: //RootNode
+    100050: Circle001
+    100052: IK Chain001
+    100054: IK Chain002
+    100056: IK Chain003
+    100058: IK Chain004
+    100060: Plane001
+    100062: Plane002
+    100064: Point002
+    100066: Point003
+    100068: Point004
+    100070: Point005
+    100072: Point006
+    100074: Point007
+    100076: Point008
+    400000: Bone001
+    400002: Bone002
+    400004: Bone003
+    400006: Bone004
+    400008: Bone005
+    400010: Bone006
+    400012: Bone007
+    400014: Bone008
+    400016: chicken_00
+    400018: chicken_016
+    400020: chicken_017
+    400022: chicken_018
+    400024: chicken_02
+    400026: chicken_05
+    400028: chicken_06
+    400030: chicken_07
+    400032: chicken_08
+    400034: chicken_09
+    400036: chicken_10
+    400038: chicken_11
+    400040: chicken_12
+    400042: chicken_13
+    400044: chicken_14
+    400046: chicken_15
+    400048: //RootNode
+    400050: Circle001
+    400052: IK Chain001
+    400054: IK Chain002
+    400056: IK Chain003
+    400058: IK Chain004
+    400060: Plane001
+    400062: Plane002
+    400064: Point002
+    400066: Point003
+    400068: Point004
+    400070: Point005
+    400072: Point006
+    400074: Point007
+    400076: Point008
+    2300000: chicken_018
+    2300002: chicken_02
+    2300004: chicken_05
+    2300006: chicken_06
+    2300008: chicken_07
+    2300010: chicken_08
+    2300012: chicken_09
+    2300014: chicken_10
+    2300016: chicken_11
+    2300018: chicken_12
+    2300020: chicken_13
+    2300022: chicken_14
+    2300024: chicken_15
+    2300026: Plane001
+    2300028: Plane002
+    3300000: chicken_018
+    3300002: chicken_02
+    3300004: chicken_05
+    3300006: chicken_06
+    3300008: chicken_07
+    3300010: chicken_08
+    3300012: chicken_09
+    3300014: chicken_10
+    3300016: chicken_11
+    3300018: chicken_12
+    3300020: chicken_13
+    3300022: chicken_14
+    3300024: chicken_15
+    3300026: Plane001
+    3300028: Plane002
+    4300000: chicken_016
+    4300002: chicken_017
+    4300004: chicken_15
+    4300006: Plane002
+    4300008: Plane001
+    4300010: chicken_14
+    4300012: chicken_09
+    4300014: chicken_10
+    4300016: chicken_13
+    4300018: chicken_11
+    4300020: chicken_12
+    4300022: chicken_06
+    4300024: chicken_05
+    4300026: chicken_08
+    4300028: chicken_07
+    4300030: chicken_02
+    4300032: chicken_018
+    7400000: Stand to sit
+    7400002: Sit
+    7400004: Sit to stand
+    7400006: Stand to walk
+    7400008: Walk
+    7400010: Walk to stand
+    7400012: Stand to run
+    7400014: Run
+    7400016: Run to stand
+    7400018: Make Sound
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: chicken_016
+    13700002: chicken_017
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 2
+    clipAnimations:
+    - name: Stand to sit
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 1
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: Sit
+      takeName: Take 001
+      firstFrame: 40
+      lastFrame: 49
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 1
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: Sit to stand
+      takeName: Take 001
+      firstFrame: 49
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 1
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: Stand to walk
+      takeName: Take 001
+      firstFrame: 100
+      lastFrame: 105
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 1
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: Walk
+      takeName: Take 001
+      firstFrame: 105
+      lastFrame: 165
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 1
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: Walk to stand
+      takeName: Take 001
+      firstFrame: 165
+      lastFrame: 185
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 1
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: Stand to run
+      takeName: Take 001
+      firstFrame: 200
+      lastFrame: 205
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 1
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: Run
+      takeName: Take 001
+      firstFrame: 205
+      lastFrame: 275
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 1
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: Run to stand
+      takeName: Take 001
+      firstFrame: 275
+      lastFrame: 300
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 1
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: Make Sound
+      takeName: Take 001
+      firstFrame: 300
+      lastFrame: 370
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 1
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .100000001
+    meshCompression: 0
+    addColliders: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 1
+  userData: 

@@ -1,0 +1,1 @@
+diffuse = ( texture( name="diffuseTexture", uv=uv0 * 1 ))

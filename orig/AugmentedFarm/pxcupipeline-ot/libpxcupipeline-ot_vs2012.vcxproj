@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>libpxcupipeline-ot</ProjectName>
+    <RootNamespace>libpxcupipeline-ot</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+    <TargetName>$(ProjectName)_d</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+    <TargetName>$(ProjectName)_d</TargetName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">bin/$(PlatformName)/</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">build/$(Platform)_$(Configuration)$(ConfigurationName)/$(ProjectName)/</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">bin/$(PlatformName)/</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">build/$(Platform)_$(Configuration)$(ConfigurationName)/$(ProjectName)/</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">bin/$(PlatformName)/</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">build/$(Platform)_$(Configuration)$(ConfigurationName)/$(ProjectName)/</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">bin/$(PlatformName)/</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">build/$(Platform)_$(Configuration)$(ConfigurationName)/$(ProjectName)/</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>include;../../../include;../../../sample/common/include;../../../framework/common/pxcupipeline/include;../../../framework/common/pxcupipeline/src;../../../contrib/Total Immersion/include;$(PCSDK_DIR)/include;$(PCSDK_DIR)/sample/common/include;$(PCSDK_DIR)/framework/common/pxcupipeline/include;$(PCSDK_DIR)/framework/common/pxcupipeline/src;$(PCSDK_DIR)/contrib/Total Immersion/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_WIN32_WINNT=0x0600;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+      <ProgramDataBaseFileName></ProgramDataBaseFileName>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)$(ProjectName).dll</OutputFile>
+    </Lib>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>include;../../../include;../../../sample/common/include;../../../framework/common/pxcupipeline/include;../../../framework/common/pxcupipeline/src;../../../contrib/Total Immersion/include;$(PCSDK_DIR)/include;$(PCSDK_DIR)/sample/common/include;$(PCSDK_DIR)/framework/common/pxcupipeline/include;$(PCSDK_DIR)/framework/common/pxcupipeline/src;$(PCSDK_DIR)/contrib/Total Immersion/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>libpxc_d.lib;libpxcutils_d.lib;ipppxcu_l.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName).dll</OutputFile>
+      <ModuleDefinitionFile>libpxcupipeline-ot.def</ModuleDefinitionFile>
+      <AdditionalLibraryDirectories>../../../lib/$(PlatformName);../../../sample/common/lib/$(PlatformName)/$(PlatformToolset);../../../framework/common/pxcupipeline/lib/$(PlatformName);$(PCSDK_DIR)/lib/$(PlatformName);$(PCSDK_DIR)/sample/common/lib/$(PlatformName)/$(PlatformToolset);$(PCSDK_DIR)/framework/common/pxcupipeline/lib/$(PlatformName);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <LinkTimeCodeGeneration>
+      </LinkTimeCodeGeneration>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>include;../../../include;../../../sample/common/include;../../../framework/common/pxcupipeline/include;../../../framework/common/pxcupipeline/src;../../../contrib/Total Immersion/include;$(PCSDK_DIR)/include;$(PCSDK_DIR)/sample/common/include;$(PCSDK_DIR)/framework/common/pxcupipeline/include;$(PCSDK_DIR)/framework/common/pxcupipeline/src;$(PCSDK_DIR)/contrib/Total Immersion/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN64;_DEBUG;_CONSOLE;_WIN64_WINNT=0x0600;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+      <ProgramDataBaseFileName></ProgramDataBaseFileName>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)$(ProjectName).dll</OutputFile>
+    </Lib>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>include;../../../include;../../../sample/common/include;../../../framework/common/pxcupipeline/include;../../../framework/common/pxcupipeline/src;../../../contrib/Total Immersion/include;$(PCSDK_DIR)/include;$(PCSDK_DIR)/sample/common/include;$(PCSDK_DIR)/framework/common/pxcupipeline/include;$(PCSDK_DIR)/framework/common/pxcupipeline/src;$(PCSDK_DIR)/contrib/Total Immersion/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>libpxc_d.lib;libpxcutils_d.lib;ipppxcu_l.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName).dll</OutputFile>
+      <ModuleDefinitionFile>libpxcupipeline-ot.def</ModuleDefinitionFile>
+      <AdditionalLibraryDirectories>../../../lib/$(PlatformName);../../../sample/common/lib/$(PlatformName)/$(PlatformToolset);../../../framework/common/pxcupipeline/lib/$(PlatformName);$(PCSDK_DIR)/lib/$(PlatformName);$(PCSDK_DIR)/sample/common/lib/$(PlatformName)/$(PlatformToolset);$(PCSDK_DIR)/framework/common/pxcupipeline/lib/$(PlatformName);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <LinkTimeCodeGeneration>
+      </LinkTimeCodeGeneration>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>include;../../../include;../../../sample/common/include;../../../framework/common/pxcupipeline/include;../../../framework/common/pxcupipeline/src;../../../contrib/Total Immersion/include;$(PCSDK_DIR)/include;$(PCSDK_DIR)/sample/common/include;$(PCSDK_DIR)/framework/common/pxcupipeline/include;$(PCSDK_DIR)/framework/common/pxcupipeline/src;$(PCSDK_DIR)/contrib/Total Immersion/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_WIN32_WINNT=0x0600;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+      <ProgramDataBaseFileName></ProgramDataBaseFileName>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)$(ProjectName).dll</OutputFile>
+    </Lib>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>include;../../../include;../../../sample/common/include;../../../framework/common/pxcupipeline/include;../../../framework/common/pxcupipeline/src;../../../contrib/Total Immersion/include;$(PCSDK_DIR)/include;$(PCSDK_DIR)/sample/common/include;$(PCSDK_DIR)/framework/common/pxcupipeline/include;$(PCSDK_DIR)/framework/common/pxcupipeline/src;$(PCSDK_DIR)/contrib/Total Immersion/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>libpxc.lib;libpxcutils.lib;ipppxcu_l.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>../../../lib/$(PlatformName);../../../sample/common/lib/$(PlatformName)/$(PlatformToolset);../../../framework/common/pxcupipeline/lib/$(PlatformName);$(PCSDK_DIR)/lib/$(PlatformName);$(PCSDK_DIR)/sample/common/lib/$(PlatformName)/$(PlatformToolset);$(PCSDK_DIR)/framework/common/pxcupipeline/lib/$(PlatformName);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <OutputFile>$(OutDir)$(ProjectName).dll</OutputFile>
+      <ModuleDefinitionFile>libpxcupipeline-ot.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <LinkTimeCodeGeneration>
+      </LinkTimeCodeGeneration>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>include;../../../include;../../../sample/common/include;../../../framework/common/pxcupipeline/include;../../../framework/common/pxcupipeline/src;../../../contrib/Total Immersion/include;$(PCSDK_DIR)/include;$(PCSDK_DIR)/sample/common/include;$(PCSDK_DIR)/framework/common/pxcupipeline/include;$(PCSDK_DIR)/framework/common/pxcupipeline/src;$(PCSDK_DIR)/contrib/Total Immersion/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN64;NDEBUG;_CONSOLE;_WIN64_WINNT=0x0600;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+      <ProgramDataBaseFileName></ProgramDataBaseFileName>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)$(ProjectName).dll</OutputFile>
+    </Lib>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>include;../../../include;../../../sample/common/include;../../../framework/common/pxcupipeline/include;../../../framework/common/pxcupipeline/src;../../../contrib/Total Immersion/include;$(PCSDK_DIR)/include;$(PCSDK_DIR)/sample/common/include;$(PCSDK_DIR)/framework/common/pxcupipeline/include;$(PCSDK_DIR)/framework/common/pxcupipeline/src;$(PCSDK_DIR)/contrib/Total Immersion/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>libpxc.lib;libpxcutils.lib;ipppxcu_l.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>../../../lib/$(PlatformName);../../../sample/common/lib/$(PlatformName)/$(PlatformToolset);../../../framework/common/pxcupipeline/lib/$(PlatformName);$(PCSDK_DIR)/lib/$(PlatformName);$(PCSDK_DIR)/sample/common/lib/$(PlatformName)/$(PlatformToolset);$(PCSDK_DIR)/framework/common/pxcupipeline/lib/$(PlatformName);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <OutputFile>$(OutDir)$(ProjectName).dll</OutputFile>
+      <ModuleDefinitionFile>libpxcupipeline-ot.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <LinkTimeCodeGeneration>
+      </LinkTimeCodeGeneration>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="src\util_pipeline_object_tracking.cpp"  />
+    <ClCompile Include="src\pxcupipeline-ot.cpp"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h"  />
+    <ClInclude Include="include\util_pipeline_object_tracking.h"  />
+    <ClInclude Include="include\pxcupipeline-ot.h"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="libpxcupipeline-ot.rc"  />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

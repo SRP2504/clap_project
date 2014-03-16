@@ -1,0 +1,11 @@
+diffuseTexture1 = floor_DM.dds
+diffuseTexture2 = floor_DM.dds
+diffuseTexture3 = floor_DM.dds
+normalTexture1 = floor_NM.dds
+VertexShaderFile    = floorLayered.fx
+VertexShaderMain    = VSMain
+VertexShaderProfile = vs_4_0
+PixelShaderFile     = floorLayered.fx
+PixelShaderMain     = PSMain
+PixelShaderProfile  = ps_4_0
+RenderStateFile     = $DefaultRenderStates

@@ -1,0 +1,22 @@
+// Created with FBXConvert.exe (Oct  5 2012 06:49:44)
+[node 0]
+type = null
+name = tr_exportGroup
+parent = -1
+matrixRow0 = 0.01 0 -0 0
+matrixRow1 = 0 0.01 -0 0
+matrixRow2 = -0 -0 0.01 0
+matrixRow3 = 0 0 -0 1
+[node 1]
+type = model
+name = holeFrames1
+parent = 0
+matrixRow0 = 1 0 -0 0
+matrixRow1 = 0 1 -0 0
+matrixRow2 = -0 -0 1 0
+matrixRow3 = 0 0 -0 1
+BoundingBoxCenter = 0 2500 -0 
+BoundingBoxHalf = 2650 2650 2650 
+meshcount = 2
+material0 = holeFramesFloor1
+material1 = holeFrames2

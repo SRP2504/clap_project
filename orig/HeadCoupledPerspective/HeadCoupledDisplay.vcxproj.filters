@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+	  <ClCompile Include="src/hcd.cpp" />
+	  <ClCompile Include="src/ballRoomScene.cpp" />
+	  <ClCompile Include="src/detect.cpp">
+      <Filter>SensorInput</Filter>
+    </ClCompile>
+    <ClCompile Include="src/headCoupledCamera.cpp" />
+    <ClCompile Include="src/hcdUtil.cpp" />
+    <ClCompile Include="src/pipeRoomScene.cpp" />
+    <ClCompile Include="src/face_render.cpp">
+      <Filter>SensorInput</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="include/hcd.h" />
+    <ClInclude Include="include/ballRoomScene.h" />
+    <ClInclude Include="include/detect.h">
+      <Filter>SensorInput</Filter>
+    </ClInclude>
+    <ClInclude Include="include/headCoupledCamera.h" />
+    <ClInclude Include="include/hcdUtil.h" />
+    <ClInclude Include="include/pipeRoomScene.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="hcd.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="hcd.ico" />
+    <None Include="Media\envSphere\Asset\envSphere_Camera.set">
+      <Filter>Assets\EnvSphere</Filter>
+    </None>
+    <None Include="Media\envSphere\Material\phong1.mtl">
+      <Filter>Assets\EnvSphere</Filter>
+    </None>
+    <None Include="Media\envSphere\Material\UV_phong1.mtl">
+      <Filter>Assets\EnvSphere</Filter>
+    </None>
+    <None Include="Media\pipeRoom\Asset\holeFrames.set">
+      <Filter>Assets\PipeRoom</Filter>
+    </None>
+    <None Include="Media\pipeRoom\Asset\pipeRoom.set">
+      <Filter>Assets\PipeRoom</Filter>
+    </None>
+    <None Include="Media\pipeRoom\Material\ceilingColor.mtl">
+      <Filter>Assets\PipeRoom</Filter>
+    </None>
+    <None Include="Media\pipeRoom\Material\floorColor.mtl">
+      <Filter>Assets\PipeRoom</Filter>
+    </None>
+    <None Include="Media\pipeRoom\Material\floorLayered.mtl">
+      <Filter>Assets\PipeRoom</Filter>
+    </None>
+    <None Include="Media\pipeRoom\Material\holeFrames2.mtl">
+      <Filter>Assets\PipeRoom</Filter>
+    </None>
+    <None Include="Media\pipeRoom\Material\holeFramesFloor1.mtl">
+      <Filter>Assets\PipeRoom</Filter>
+    </None>
+    <None Include="Media\pipeRoom\Material\jointColor.mtl">
+      <Filter>Assets\PipeRoom</Filter>
+    </None>
+    <None Include="Media\pipeRoom\Material\rodColor.mtl">
+      <Filter>Assets\PipeRoom</Filter>
+    </None>
+    <None Include="Media\pipeRoom\Material\skyColor.mtl">
+      <Filter>Assets\PipeRoom</Filter>
+    </None>
+    <None Include="Media\pipeRoom\Material\wallColor.mtl">
+      <Filter>Assets\PipeRoom</Filter>
+    </None>
+    <None Include="Media\envSphere\Shader\sphere.fx">
+      <Filter>Assets\EnvSphere</Filter>
+    </None>
+    <None Include="Media\Shader\default.fx">
+      <Filter>Assets\PipeRoom</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Assets">
+      <UniqueIdentifier>{5ed98200-4fc8-4288-a91e-56e4b335bfeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SensorInput">
+      <UniqueIdentifier>{abebad08-e19d-44bc-9014-41ae32a612ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\PipeRoom">
+      <UniqueIdentifier>{67e14886-87cb-4c8d-973e-1d705fcc9fea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\EnvSphere">
+      <UniqueIdentifier>{6a678879-ee5f-4e3f-8192-dfb8ad8138cc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

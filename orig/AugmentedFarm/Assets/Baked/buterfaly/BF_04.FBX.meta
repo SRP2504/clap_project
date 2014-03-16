@@ -1,0 +1,122 @@
+fileFormatVersion: 2
+guid: c671f688782e9c548b01df591c0f08bd
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: buttfly_00
+    100004: buttfly_12
+    100006: buttfly_08
+    100008: buttfly_03
+    100010: buttfly_06
+    100012: buttfly_10
+    100014: buttfly_07
+    100016: buttfly_04
+    100018: buttfly_13
+    100020: buttfly_05
+    100022: buttfly_02
+    100024: buttfly_09
+    400000: //RootNode
+    400002: buttfly_00
+    400004: buttfly_12
+    400006: buttfly_08
+    400008: buttfly_03
+    400010: buttfly_06
+    400012: buttfly_10
+    400014: buttfly_07
+    400016: buttfly_04
+    400018: buttfly_13
+    400020: buttfly_05
+    400022: buttfly_02
+    400024: buttfly_09
+    2300000: //RootNode
+    2300002: buttfly_00
+    2300004: buttfly_12
+    2300006: buttfly_08
+    2300008: buttfly_03
+    2300010: buttfly_06
+    2300012: buttfly_10
+    2300014: buttfly_07
+    2300016: buttfly_04
+    2300018: buttfly_13
+    2300020: buttfly_05
+    2300022: buttfly_02
+    2300024: buttfly_09
+    3300000: //RootNode
+    3300002: buttfly_00
+    3300004: buttfly_12
+    3300006: buttfly_08
+    3300008: buttfly_03
+    3300010: buttfly_06
+    3300012: buttfly_10
+    3300014: buttfly_07
+    3300016: buttfly_04
+    3300018: buttfly_13
+    3300020: buttfly_05
+    3300022: buttfly_02
+    3300024: buttfly_09
+    4300000: Circle001
+    4300002: buttfly_00
+    4300004: buttfly_06
+    4300006: buttfly_07
+    4300008: buttfly_08
+    4300010: buttfly_09
+    4300012: buttfly_10
+    4300014: buttfly_13
+    4300016: buttfly_12
+    4300018: buttfly_02
+    4300020: buttfly_03
+    4300022: buttfly_05
+    4300024: buttfly_04
+    7400002: Take 001
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 2
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 1
+  userData: 

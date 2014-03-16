@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="9.00"
+	Name="libpxcupipeline-ot"
+	RootNamespace="libpxcupipeline-ot"
+	Keyword="Win32Proj"
+	TargetFrameworkVersion="131072"
+	>
+	<Platforms>
+		<Platform Name="Win32" />
+		<Platform Name="x64" />
+	</Platforms>
+	<ToolFiles />
+	<Configurations>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory="bin/$(PlatformName)/"
+			IntermediateDirectory="build/$(Platform)_$(ConfigurationName)/$(ProjectName)/"
+			ConfigurationType="2"
+			CharacterSet="1"
+			>
+			<Tool
+				Name="VCCLCompilerTool"
+				Optimization="0"
+				AdditionalIncludeDirectories="include;../../../include;../../../sample/common/include;../../../framework/common/pxcupipeline/include;../../../framework/common/pxcupipeline/src;../../../contrib/Total Immersion/include;$(PCSDK_DIR)/include;$(PCSDK_DIR)/sample/common/include;$(PCSDK_DIR)/framework/common/pxcupipeline/include;$(PCSDK_DIR)/framework/common/pxcupipeline/src;$(PCSDK_DIR)/contrib/Total Immersion/include"
+				PreprocessorDefinitions="WIN32;_DEBUG;_CONSOLE;_WIN32_WINNT=0x0600"
+				RuntimeLibrary="1"
+				UsePrecompiledHeader="0"
+				WarningLevel="3"
+				DebugInformationFormat="1"
+			/>
+			<Tool
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="include;../../../include;../../../sample/common/include;../../../framework/common/pxcupipeline/include;../../../framework/common/pxcupipeline/src;../../../contrib/Total Immersion/include;$(PCSDK_DIR)/include;$(PCSDK_DIR)/sample/common/include;$(PCSDK_DIR)/framework/common/pxcupipeline/include;$(PCSDK_DIR)/framework/common/pxcupipeline/src;$(PCSDK_DIR)/contrib/Total Immersion/include"
+			/>
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalDependencies="libpxc_d.lib libpxcutils_d.lib ipppxcu_l.lib"
+				OutputFile="$(OutDir)$(ProjectName).dll"
+				ModuleDefinitionFile="libpxcupipeline-ot.def"
+				LinkIncremental="1"
+				AdditionalLibraryDirectories="../../../lib/$(PlatformName);../../../sample/common/lib/$(PlatformName)/;../../../framework/common/pxcupipeline/lib/$(PlatformName);$(PCSDK_DIR)/lib/$(PlatformName);$(PCSDK_DIR)/sample/common/lib/$(PlatformName)/;$(PCSDK_DIR)/framework/common/pxcupipeline/lib/$(PlatformName)"
+				GenerateDebugInformation="true"
+
+				SubSystem="1"
+				LinkTimeCodeGeneration="0"
+				TargetMachine="1"
+			/>
+			<Tool
+				Name="VCLibrarianTool"
+				OutputFile="$(OutDir)$(ProjectName).dll"
+			/>
+		</Configuration>
+		<Configuration
+			Name="Debug|x64"
+			OutputDirectory="bin/$(PlatformName)/"
+			IntermediateDirectory="build/$(Platform)_$(ConfigurationName)/$(ProjectName)/"
+			ConfigurationType="2"
+			CharacterSet="1"
+			>
+			<Tool
+				Name="VCCLCompilerTool"
+				Optimization="0"
+				AdditionalIncludeDirectories="include;../../../include;../../../sample/common/include;../../../framework/common/pxcupipeline/include;../../../framework/common/pxcupipeline/src;../../../contrib/Total Immersion/include;$(PCSDK_DIR)/include;$(PCSDK_DIR)/sample/common/include;$(PCSDK_DIR)/framework/common/pxcupipeline/include;$(PCSDK_DIR)/framework/common/pxcupipeline/src;$(PCSDK_DIR)/contrib/Total Immersion/include"
+				PreprocessorDefinitions="WIN64;_DEBUG;_CONSOLE;_WIN64_WINNT=0x0600"
+				RuntimeLibrary="1"
+				UsePrecompiledHeader="0"
+				WarningLevel="3"
+				DebugInformationFormat="1"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="include;../../../include;../../../sample/common/include;../../../framework/common/pxcupipeline/include;../../../framework/common/pxcupipeline/src;../../../contrib/Total Immersion/include;$(PCSDK_DIR)/include;$(PCSDK_DIR)/sample/common/include;$(PCSDK_DIR)/framework/common/pxcupipeline/include;$(PCSDK_DIR)/framework/common/pxcupipeline/src;$(PCSDK_DIR)/contrib/Total Immersion/include"
+			/>
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalDependencies="libpxc_d.lib libpxcutils_d.lib ipppxcu_l.lib"
+				OutputFile="$(OutDir)$(ProjectName).dll"
+				ModuleDefinitionFile="libpxcupipeline-ot.def"
+				LinkIncremental="1"
+				AdditionalLibraryDirectories="../../../lib/$(PlatformName);../../../sample/common/lib/$(PlatformName)/;../../../framework/common/pxcupipeline/lib/$(PlatformName);$(PCSDK_DIR)/lib/$(PlatformName);$(PCSDK_DIR)/sample/common/lib/$(PlatformName)/;$(PCSDK_DIR)/framework/common/pxcupipeline/lib/$(PlatformName)"
+				GenerateDebugInformation="true"
+				LinkTimeCodeGeneration="0"
+				SubSystem="1"
+				TargetMachine="17"
+			/>
+			<Tool
+				Name="VCLibrarianTool"
+				OutputFile="$(OutDir)$(ProjectName).dll"
+			/>
+		</Configuration>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory="bin/$(PlatformName)/"
+			IntermediateDirectory="build/$(Platform)_$(ConfigurationName)/$(ProjectName)/"
+			ConfigurationType="2"
+			CharacterSet="1"
+			>
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="include;../../../include;../../../sample/common/include;../../../framework/common/pxcupipeline/include;../../../framework/common/pxcupipeline/src;../../../contrib/Total Immersion/include;$(PCSDK_DIR)/include;$(PCSDK_DIR)/sample/common/include;$(PCSDK_DIR)/framework/common/pxcupipeline/include;$(PCSDK_DIR)/framework/common/pxcupipeline/src;$(PCSDK_DIR)/contrib/Total Immersion/include"
+				PreprocessorDefinitions="WIN32;NDEBUG;_CONSOLE;_WIN32_WINNT=0x0600"
+				RuntimeLibrary="0"
+				UsePrecompiledHeader="0"
+				WarningLevel="3"
+				DebugInformationFormat="1"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="include;../../../include;../../../sample/common/include;../../../framework/common/pxcupipeline/include;../../../framework/common/pxcupipeline/src;../../../contrib/Total Immersion/include;$(PCSDK_DIR)/include;$(PCSDK_DIR)/sample/common/include;$(PCSDK_DIR)/framework/common/pxcupipeline/include;$(PCSDK_DIR)/framework/common/pxcupipeline/src;$(PCSDK_DIR)/contrib/Total Immersion/include"
+			/>
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalDependencies="libpxc.lib libpxcutils.lib ipppxcu_l.lib"
+				OutputFile="$(OutDir)$(ProjectName).dll"
+				LinkIncremental="1"
+				AdditionalLibraryDirectories="../../../lib/$(PlatformName);../../../sample/common/lib/$(PlatformName)/;../../../framework/common/pxcupipeline/lib/$(PlatformName);$(PCSDK_DIR)/lib/$(PlatformName);$(PCSDK_DIR)/sample/common/lib/$(PlatformName)/;$(PCSDK_DIR)/framework/common/pxcupipeline/lib/$(PlatformName)"
+				ModuleDefinitionFile="libpxcupipeline-ot.def"
+				GenerateDebugInformation="true"
+				SubSystem="1"
+				LinkTimeCodeGeneration="0"
+				TargetMachine="1"
+			/>
+			<Tool
+				Name="VCLibrarianTool"
+				OutputFile="$(OutDir)$(ProjectName).dll"
+			/>
+		</Configuration>
+		<Configuration
+			Name="Release|x64"
+			OutputDirectory="bin/$(PlatformName)/"
+			IntermediateDirectory="build/$(Platform)_$(ConfigurationName)/$(ProjectName)/"
+			ConfigurationType="2"
+			CharacterSet="1"
+			>
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="include;../../../include;../../../sample/common/include;../../../framework/common/pxcupipeline/include;../../../framework/common/pxcupipeline/src;../../../contrib/Total Immersion/include;$(PCSDK_DIR)/include;$(PCSDK_DIR)/sample/common/include;$(PCSDK_DIR)/framework/common/pxcupipeline/include;$(PCSDK_DIR)/framework/common/pxcupipeline/src;$(PCSDK_DIR)/contrib/Total Immersion/include"
+				PreprocessorDefinitions="WIN64;NDEBUG;_CONSOLE;_WIN64_WINNT=0x0600"
+				RuntimeLibrary="0"
+				UsePrecompiledHeader="0"
+				WarningLevel="3"
+				DebugInformationFormat="1"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="include;../../../include;../../../sample/common/include;../../../framework/common/pxcupipeline/include;../../../framework/common/pxcupipeline/src;../../../contrib/Total Immersion/include;$(PCSDK_DIR)/include;$(PCSDK_DIR)/sample/common/include;$(PCSDK_DIR)/framework/common/pxcupipeline/include;$(PCSDK_DIR)/framework/common/pxcupipeline/src;$(PCSDK_DIR)/contrib/Total Immersion/include"
+			/>
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalDependencies="libpxc.lib libpxcutils.lib ipppxcu_l.lib"
+				LinkIncremental="1"
+				AdditionalLibraryDirectories="../../../lib/$(PlatformName);../../../sample/common/lib/$(PlatformName)/;../../../framework/common/pxcupipeline/lib/$(PlatformName);$(PCSDK_DIR)/lib/$(PlatformName);$(PCSDK_DIR)/sample/common/lib/$(PlatformName)/;$(PCSDK_DIR)/framework/common/pxcupipeline/lib/$(PlatformName)"
+				ModuleDefinitionFile="libpxcupipeline-ot.def"
+				OutputFile="$(OutDir)$(ProjectName).dll"
+				GenerateDebugInformation="true"
+				SubSystem="1"
+				LinkTimeCodeGeneration="0"
+				TargetMachine="17"
+			/>
+			<Tool
+				Name="VCLibrarianTool"
+				OutputFile="$(OutDir)$(ProjectName).dll"
+			/>
+		</Configuration>
+	</Configurations>
+	<References />
+	<Files>
+		<Filter
+			Name="Source Files"
+			Filter="cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx"
+			>
+			<File	RelativePath="src\util_pipeline_object_tracking.cpp"  />
+			<File	RelativePath="src\pxcupipeline-ot.cpp"  />
+		</Filter>
+		<Filter
+			Name="Header Files"
+			Filter="h;hpp;hxx;hm;inl;inc;xsd"
+			>
+			<File	RelativePath="resource.h"  />
+			<File	RelativePath="include\util_pipeline_object_tracking.h"  />
+			<File	RelativePath="include\pxcupipeline-ot.h"  />
+		</Filter>
+		<Filter
+			Name="Resource Files"
+			Filter="rc"
+			>
+			<File	RelativePath="libpxcupipeline-ot.rc"  />
+		</Filter>
+	</Files>
+	<Globals />
+</VisualStudioProject>

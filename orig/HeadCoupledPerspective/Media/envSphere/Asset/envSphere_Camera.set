@@ -1,0 +1,25 @@
+// Created with FBXConvert.exe (Oct  5 2012 06:49:44)
+[node 0]
+type = model
+name = envSphereD
+parent = -1
+matrixRow0 = 0.01 0 -0 0
+matrixRow1 = 0 0.01 -0 0
+matrixRow2 = -0 -0 0.01 0
+matrixRow3 = 0 0 -0 1
+BoundingBoxCenter = -0.000976563 0 0.00195313 
+BoundingBoxHalf = 10000 10000 10000 
+meshcount = 1
+material0 = phong1
+[node 1]
+type = camera
+name = viewCam
+parent = -1
+matrixRow0 = -6.12323e-019 0 0.01 0
+matrixRow1 = -0 0.01 -0 0
+matrixRow2 = -0.01 0 -6.12323e-019 0
+matrixRow3 = 0 0 -0 1
+InterestPosition = 0 0 500 
+FieldOfView = 60 
+NearPlane = 0.1 
+FarPlane = 6000 

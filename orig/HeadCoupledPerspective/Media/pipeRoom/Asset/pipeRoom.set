@@ -1,0 +1,71 @@
+// Created with FBXConvert.exe (Oct  5 2012 06:49:44)
+[node 0]
+type = null
+name = tr_exportGroup
+parent = -1
+matrixRow0 = 0.01 0 -0 0
+matrixRow1 = 0 0.01 -0 0
+matrixRow2 = -0 -0 0.01 0
+matrixRow3 = 0 0 -0 1
+[node 1]
+type = model
+name = rods
+parent = 0
+matrixRow0 = 1 0 -0 0
+matrixRow1 = 0 1 -0 0
+matrixRow2 = -0 -0 1 0
+matrixRow3 = 0 0 -0 1
+BoundingBoxCenter = 0 2500 0.000610352 
+BoundingBoxHalf = 2738.1 2738.1 2738.1 
+meshcount = 1
+material0 = rodColor
+[node 2]
+type = model
+name = room
+parent = 0
+matrixRow0 = 1 0 -0 0
+matrixRow1 = 0 1 -0 0
+matrixRow2 = -0 -0 1 0
+matrixRow3 = 0 0 -0 1
+BoundingBoxCenter = 0 2500 -0 
+BoundingBoxHalf = 2500 2500 2500 
+meshcount = 2
+material0 = wallColor
+material1 = floorColor
+[node 3]
+type = model
+name = corners
+parent = 0
+matrixRow0 = 50 0 -0 0
+matrixRow1 = 0 50 -0 0
+matrixRow2 = -0 -0 50 0
+matrixRow3 = 0 0 -0 1
+BoundingBoxCenter = 0 50 -0 
+BoundingBoxHalf = 50 50 50 
+meshcount = 2
+material0 = wallColor
+material1 = floorColor
+[node 4]
+type = model
+name = joints
+parent = 0
+matrixRow0 = 1 0 -0 0
+matrixRow1 = 0 1 -0 0
+matrixRow2 = -0 -0 1 0
+matrixRow3 = 0 0 -0 1
+BoundingBoxCenter = -178.571 2501.72 -59.5238 
+BoundingBoxHalf = 1682.14 2100.53 2039.29 
+meshcount = 1
+material0 = jointColor
+[node 5]
+type = model
+name = sky
+parent = 0
+matrixRow0 = 75 0 -0 0
+matrixRow1 = 0 75 -0 0
+matrixRow2 = -0 -0 75 0
+matrixRow3 = 0 2500 -0 1
+BoundingBoxCenter = 0 0 -0 
+BoundingBoxHalf = 50 50 50 
+meshcount = 1
+material0 = skyColor
